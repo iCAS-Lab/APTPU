@@ -1,0 +1,13 @@
+#!/bin/csh -f
+
+# Mohammed Essa
+# 2021.04.10
+# DC script for MICRO54 Paper Project
+# Script to test the Systoic Array (Matrix Multiplication) with different configuration
+# We're are trying to 
+
+#setenv  RTL_FORMAT      rtl
+#set RTL_FORMAT rtl
+
+
+dc_shell-xg-t -f ./scripts/script.tcl | tee ./log/logfile.log
